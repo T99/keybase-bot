@@ -1,7 +1,7 @@
 {
-	"name": "<name>",
-	"version": "<version>",
-	"description": "<desc>",
+	"name": "@T99/my-keybase-bot",
+	"version": "0.1.0",
+	"description": "A Keybase bot.",
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"scripts": {
@@ -10,18 +10,19 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/<github_org>/<base_name>.git"
+		"url": "git+https://github.com/T99/my-keybase-bot"
 	},
-	"keywords": [],
+	"keywords": [
+		""
+	],
 	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/<github_org>/<base_name>/issues"
+		"url": "https://github.com/T99/my-keybase-bot/issues"
 	},
-	"homepage": "https://github.com/<github_org>/<base_name>#readme",
+	"homepage": "https://github.com/T99/my-keybase-bot#readme",
 	"devDependencies": {
-		"typescript": "latest",
-		"tslint": "latest",
+		"@t99/delicate": "^0.2.0",
 		"@types/jest": "latest",
 		"del": "latest",
 		"gulp": "latest",
@@ -29,6 +30,12 @@
 		"gulp-typescript": "latest",
 		"gulp-uglify-es": "latest",
 		"jest": "latest",
-		"ts-jest": "latest"
+		"ts-jest": "latest",
+		"tslint": "latest",
+		"typescript": "latest"
+	},
+	"dependencies": {
+		"avents": "^0.1.0",
+		"keybase-bot": "^3.3.1"
 	}
 }
